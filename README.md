@@ -1,3 +1,8 @@
+Deployed:
+
+https://test-task-pi-amber.vercel.app
+-------------------------------------
+
 Technologies Used:
 Frontend: React, Typescript, Axios, CSS Modules, React Router, Firebase, Swiper
 
