@@ -1,0 +1,35 @@
+.modal_window_wrapper {
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: var(--black);
+    z-index: 2;
+}
+
+.modal_window {
+    width: 500px;
+    height: 500px;
+    background: var(--black);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    color: white;
+}
+
+.close_button_container {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+.close_button {
+    background: transparent;
+    border: none;
+    margin: 10px;
+    &:hover {
+        cursor: pointer;
+    }
+}

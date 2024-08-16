@@ -1,0 +1,47 @@
+.auth_mode_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.auth_mode_button {
+    background: transparent;
+    border: none;
+    color: var(--white);
+    font-size: 20px;
+    text-decoration: underline;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.title {
+    text-align: center;
+}
+
+.form_container {
+    display: flex;
+    justify-content: center;
+}
+
+.form_content {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.input_label {
+    margin: 10px 0 10px 0;
+}
+
+.auth_mode_buttons_container {
+    display: flex;
+    justify-content: center;
+}
+
+.submit_button {
+    margin: 20px 0 20px 0;
+    &:hover {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,9 @@
+.rocket_details_conteiner {
+    background-color: var(--black);
+    margin: 48px 59px 100px 60px;
+}
+
+.rocket_details_title {
+    font-weight: 700;
+    font-size: 64px;
+}

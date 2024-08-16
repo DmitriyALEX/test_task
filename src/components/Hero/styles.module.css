@@ -1,0 +1,28 @@
+.hero_content_title {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 118.5px;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 48px;
+}
+
+.hero_content {
+    display: flex;
+}
+.hero_content_image {
+    width: 800px;
+    height: 500px;
+}
+
+.hero_content_underline {
+    display: flex;
+    align-items: center;
+}
+
+.hero_content_underline_line {
+    height: 6px;
+    width: 1191px;
+    background: linear-gradient(to left, var(--black) 0%, var(--white) 100%);
+    margin-left: 32px;
+}

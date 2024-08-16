@@ -1,0 +1,11 @@
+.our_rockets_navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 32px;
+}
+
+.circle_icon {
+    margin: 23px 6px 23px 6px;
+}

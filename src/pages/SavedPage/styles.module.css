@@ -1,0 +1,30 @@
+.saved_container {
+    height: 100vh;
+    margin: 48px 59px 100px 60px;
+}
+
+.no_item_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.delete_button_container {
+    display: flex;
+    justify-content: center;
+}
+
+.delete_button {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    color: var(--white);
+    &:hover {
+        cursor: pointer;
+    }
+}

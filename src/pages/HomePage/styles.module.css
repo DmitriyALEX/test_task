@@ -1,0 +1,10 @@
+.main_content_container {
+    margin: 48px 59px 100px 60px;
+}
+
+.main_content_hero {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 1321px;
+    border-radius: 40px;
+    padding: 10px 10px 32px 32px;
+}

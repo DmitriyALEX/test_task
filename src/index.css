@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Shadows+Into+Light&display=swap');
+
+body {
+    margin: 0;
+    max-width: 1440px;
+
+    /* fonts */
+    font-family: 'Rubik', sans-serif;
+    font-optical-sizing: auto;
+    color: var(--white);
+
+    /* background for all app */
+    background-color: var(--black);
+}
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --silver: #7c7a7a;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none;
+}
